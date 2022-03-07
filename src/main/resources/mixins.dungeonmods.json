@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8.3",
+  "package": "is.sly.dungeonmodpack.mixins",
+  "refmap": "mixins.dungeonmods.refmap.json",
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinBlockBarrier",
+    "MixinWitherRender"
+  ],
+  "client": [
+    "MixinBlockModelShapes",
+    "MixinBlockOutline",
+    "MixinGuiConnecting"
+  ]
+}
